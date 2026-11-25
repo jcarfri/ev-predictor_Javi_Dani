@@ -1,5 +1,7 @@
+
 # Entornos virtuales
 .venv/
+.venv312/
 venv/
 env/
 
@@ -16,11 +18,11 @@ __pycache__/
 .env
 .streamlit/secrets.toml
 
-# Datos (suelen ser grandes; GitHub rechaza archivos de más de 100 MB)
+# Datos
 data/
 *.csv
 
-# Sistema y editor
+# Sistema y editores
 .DS_Store
 Thumbs.db
 .vscode/
