@@ -1,0 +1,97 @@
+{
+  "target": "Will_Buy_EV",
+  "features": [
+    "Age",
+    "Annual_Income_USD",
+    "Daily_Commute_km",
+    "Number_of_Cars_Owned",
+    "Charging_Stations_Near_Home",
+    "Charging_Stations_Near_Work",
+    "Environmental_Concern_Level",
+    "Gender",
+    "City_Type",
+    "Current_Car_Type",
+    "Home_Charging_Possible",
+    "Subsidy_Available",
+    "Range_Anxiety_Level"
+  ],
+  "num_cols": [
+    "Age",
+    "Annual_Income_USD",
+    "Daily_Commute_km",
+    "Number_of_Cars_Owned",
+    "Charging_Stations_Near_Home",
+    "Charging_Stations_Near_Work",
+    "Environmental_Concern_Level"
+  ],
+  "cat_cols": [
+    "Gender",
+    "City_Type",
+    "Current_Car_Type",
+    "Home_Charging_Possible",
+    "Subsidy_Available",
+    "Range_Anxiety_Level"
+  ],
+  "umbral": 0.6993636825344108,
+  "categorias": {
+    "Gender": [
+      "Female",
+      "Male",
+      "Other"
+    ],
+    "City_Type": [
+      "Rural",
+      "Suburban",
+      "Urban"
+    ],
+    "Current_Car_Type": [
+      "Hatchback",
+      "SUV",
+      "Sedan",
+      "Truck"
+    ],
+    "Home_Charging_Possible": [
+      "No",
+      "Yes"
+    ],
+    "Subsidy_Available": [
+      "No",
+      "Yes"
+    ],
+    "Range_Anxiety_Level": [
+      "High",
+      "Low",
+      "Medium"
+    ]
+  },
+  "rangos_num": {
+    "Age": [
+      25.0,
+      69.0
+    ],
+    "Annual_Income_USD": [
+      30000.0,
+      188549.0
+    ],
+    "Daily_Commute_km": [
+      5.0,
+      98.7
+    ],
+    "Number_of_Cars_Owned": [
+      1.0,
+      4.0
+    ],
+    "Charging_Stations_Near_Home": [
+      0.0,
+      14.0
+    ],
+    "Charging_Stations_Near_Work": [
+      0.0,
+      19.0
+    ],
+    "Environmental_Concern_Level": [
+      1.0,
+      5.0
+    ]
+  }
+}

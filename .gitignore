@@ -1,0 +1,27 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Variables de entorno y secretos
+.env
+.streamlit/secrets.toml
+
+# Datos (suelen ser grandes; GitHub rechaza archivos de más de 100 MB)
+data/
+*.csv
+
+# Sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
